@@ -1,0 +1,289 @@
+/*!
+ * # Semantic UI 2.3.2 - Item
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+            Standard
+*******************************/
+
+
+/*--------------
+      Card
+---------------*/
+
+.sforc-wrap-content
+{
+  margin: 1em;
+}
+.sforc-ui.sforc-cards > .sforc-card,
+.sforc-ui.sforc-card {
+  max-width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-inline-box; 
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 290px;
+  min-height: 0px;
+  background: #FFFFFF;
+  padding: 0em;
+ 
+    transform: scale(0.95);
+      border: 1px solid #e5e8ed;
+
+    border-radius: 5px;
+  -webkit-box-shadow: 0 2px 4px rgba(3,27,78,.06);
+               box-shadow: 0 2px 4px rgba(3,27,78,.06);
+
+  -webkit-transition: -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  z-index: '';
+}
+
+.sforc-ui.sforc-cards > .sforc-card:hover {
+  box-shadow:0 10px 20px rgba(3,27,78,.2); 
+  transform: scale(1);
+  transition-duration: 0.8s;
+
+}
+
+.sforc-ui.sforc-card {
+  margin: 1em 0em;
+} 
+.sforc-ui.sforc-card:first-child {
+  margin-top: 0em;
+}
+.sforc-ui.sforc-card:last-child {
+  margin-bottom: 0em;
+}
+
+/*--------------
+      Cards
+---------------*/
+
+.sforc-ui.sforc-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -0.875em -0.5em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.sforc-ui.sforc-cards > .sforc-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-inline-box; 
+  margin: 0.875em 0.5em;
+  float: none;
+}
+
+/* Clearing */
+.sforc-ui.sforc-cards:after,
+.sforc-ui.sforc-card:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* Consecutive Card Groups Preserve Row Spacing */
+.sforc-ui.sforc-cards ~ .sforc-ui.sforc-cards {
+  margin-top: 0.875em;
+}
+
+/*--------------
+  Rounded Edges
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card > :first-child,
+.sforc-ui.sforc-card > :first-child {
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em ;
+  border-top: none ;
+}
+.sforc-ui.sforc-cards > .sforc-card > :last-child,
+.sforc-ui.sforc-card > :last-child {
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem ;
+}
+.sforc-ui.sforc-cards > .sforc-card > :only-child,
+.sforc-ui.sforc-card > :only-child {
+  border-radius: 0.28571429rem ;
+}
+ 
+
+/*--------------
+     Content
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content,
+.sforc-ui.sforc-card > .sforc-content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  background: none;
+  margin: 0em;
+  padding: 1em 1em;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 1em;
+  border-radius: 0em;
+}
+.sforc-ui.sforc-cards > .sforc-card > .sforc-description-content
+{
+    border-top: 1px solid rgba(34, 36, 38, 0.1);
+
+}
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content:after,
+.sforc-ui.sforc-card > .sforc-content:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content > .sforc-header,
+.sforc-ui.sforc-card > .sforc-content > .sforc-header {
+  display: block;
+  margin: '';
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Default Header Size */
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content > .sforc-header:not(.sforc-ui),
+.sforc-ui.sforc-card > .sforc-content > .sforc-header:not(.sforc-ui) {
+  font-weight: bold;
+  font-size: 1.28571429em;
+  margin-top: -0.21425em;
+  line-height: 1.28571429em;
+}
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content > .sforc-label + .sforc-description,
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content > .sforc-header + .sforc-description,
+.sforc-ui.sforc-card > .sforc-content > .sforc-label + .sforc-description,
+.sforc-ui.sforc-card > .sforc-content > .sforc-header + .sforc-description {
+  margin-top: 0.5em;
+}
+ 
+/*--------------
+     Aligned
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card [class*="left aligned"],
+.sforc-ui.sforc-card [class*="left aligned"] {
+  text-align: left;
+}
+.sforc-ui.sforc-cards > .sforc-card [class*="center aligned"],
+.sforc-ui.sforc-card [class*="center aligned"] {
+  text-align: center;
+}
+.sforc-ui.sforc-cards > .sforc-card [class*="right aligned"],
+.sforc-ui.sforc-card [class*="right aligned"] {
+  text-align: right;
+}
+ 
+/*--------------
+   Description
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content > .sforc-description,
+.sforc-ui.sforc-card > .sforc-content > .sforc-description {
+  clear: both;
+  color: rgba(0, 0, 0, 0.68);
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+}
+
+/*--------------
+    Paragraph
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content p,
+.sforc-ui.sforc-card > .sforc-content p {
+  margin: 0em 0em 0.5em;
+}
+.sforc-ui.sforc-cards > .sforc-card > .sforc-content p:last-child,
+.sforc-ui.sforc-card > .sforc-content p:last-child {
+  margin-bottom: 0em;
+}
+
+/*--------------
+      Meta
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card .sforc-label,
+.sforc-ui.sforc-card .sforc-label {
+  text-transform: uppercase;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.4);
+}
+.sforc-ui.sforc-cards > .sforc-card .sforc-label *,
+.sforc-ui.sforc-card .sforc-label * {
+  margin-right: 0.3em;
+}
+.sforc-ui.sforc-cards > .sforc-card .sforc-label :last-child,
+.sforc-ui.sforc-card .sforc-label :last-child {
+  margin-right: 0em;
+}
+.sforc-ui.sforc-cards > .sforc-card .sforc-label [class*="right floated"],
+.sforc-ui.sforc-card .sforc-label [class*="right floated"] {
+  margin-right: 0em;
+  margin-left: 0.3em;
+}
+  
+.sforc-divider
+{
+  border: none;
+  background-color: #FFFFFF; 
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    display: block;
+}
+ 
+/*-------------------
+      Stackable
+--------------------*/
+
+@media only screen and (max-width: 767px) {
+  .sforc-ui.sforc-stackable.sforc-cards {
+    display: block ;
+  }
+  .sforc-ui.sforc-stackable.sforc-cards .sforc-card:first-child {
+    margin-top: 0em ;
+  }
+  .sforc-ui.sforc-stackable.sforc-cards > .sforc-card {
+    display: block ;
+    height: auto ;
+    margin: 1em 1em;
+    padding: 0 ;
+    width: calc( 100%  -  2em ) ;
+  }
+}
+
+/*--------------
+      Size
+---------------*/
+
+.sforc-ui.sforc-cards > .sforc-card {
+  font-size: 1em;
+}
+ 

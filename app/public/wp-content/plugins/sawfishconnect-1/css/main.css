@@ -1,0 +1,62 @@
+.sforc-search
+{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 2em 2em 2em 0.5em;
+  background-color: #fff;
+  min-width: 10em;
+  width: 50%;
+  border: 1px solid #e5e8ed;
+  padding-left: 0.5em;
+
+}
+
+.sforc-search::placeholder {
+  color: rgba(3,27,78,.06);
+}
+
+/* Calendar */
+#sforc-calendar table
+{
+  margin-bottom:0em;
+}
+.sforc-select
+{
+  margin:2em 1em;
+}
+
+.sforc-tooltip
+{
+  border-radius: 25px;padding:1em;min-width:100px; background:#ccc;position:absolute;z-index:10001;
+  background: #FFFFFF;
+  padding: 1em;
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 9px rgba(3,27,78,.06);
+  box-shadow: 0 4px 9px rgba(3,27,78,.06);
+  z-index: 1001;
+}
+
+.sforc-tooltip-description 
+{    
+  font-size: 90%;
+}
+
+.sforc-tooltip-label 
+{    
+  font-size: 90%;
+  text-transform: uppercase;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 80%;  color: rgba(0, 0, 0, 0.4);
+}
+
+.sforc-tooltip-content
+{
+  margin-bottom:0em;
+  margin-top:0.75em;
+}
+
+.sforc-tooltip-title
+{
+  margin-bottom:0em;
+}

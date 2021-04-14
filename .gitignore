@@ -1,0 +1,7 @@
+node_modules
+logs/
+conf/
+app/sql/
+.env
+app/public/wp-content/themes/hello-elementor-child/testjs.js
+app/public/wp-content/themes/hello-elementor-child/custom_querys.html

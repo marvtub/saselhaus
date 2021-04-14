@@ -1,0 +1,230 @@
+0000.001 (0) Opened log file at time: Thu, 08 Apr 2021 09:15:44 +0000 on https://sasel-haus.local
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 7.3.5 (cgi-fcgi, Windows NT MARVINSULTRABOO 10.0 build 19042 (Windows 10) AMD64) MySQL: 8.0.16 WPLANG: de_DE Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.8M | 4M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 4140.6 MB
+0000.029 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.041 (0) Semaphore (fd, wp_options) being initialised
+0000.054 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.068 (0) Set semaphore last lock (fd) time to 2021-04-08 09:15:44
+0000.073 (0) Semaphore lock (fd) complete
+0000.089 (0) Backup run: resumption=0, nonce=7cdbadd75254, file_nonce=7cdbadd75254 begun at=1617873344 (0s ago), job type=backup
+0000.098 (0) Scheduling a resumption (1) after 300 seconds (1617873644) in case this run gets aborted
+0000.136 (0) Checking if we have a zip executable available
+0000.144 (0) Creation of backups of directories: beginning
+0000.160 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.776 (0) Total entities for the zip file: 1368 directories, 6048 files (0 skipped as non-modified), 106.8 MB
+0004.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.943 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 100 files added (on-disk size: 253.9 KB)
+0005.008 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 200 files added (on-disk size: 253.9 KB)
+0005.097 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 300 files added (on-disk size: 253.9 KB)
+0005.511 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 400 files added (on-disk size: 253.9 KB)
+0005.610 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 500 files added (on-disk size: 253.9 KB)
+0005.740 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 600 files added (on-disk size: 253.9 KB)
+0006.045 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 6048 files batched, 678 (679) added so far); re-opening (prior size: 253.9 KB)
+0009.764 (0) A useful amount of data was added after this amount of zip processing: 5.6 s (normalised: 5.5 s, rate: 4637.8 KB/s)
+0009.773 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.5739159584045, normalised_time=5.5198281948694, max_time=9.7677710056305, data points known=1, old_max_bytes=26214400, new_max_bytes=28494799)
+0009.936 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 700 files added (on-disk size: 6769.9 KB)
+0010.202 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 800 files added (on-disk size: 6769.9 KB)
+0010.329 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 900 files added (on-disk size: 6769.9 KB)
+0010.426 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1000 files added (on-disk size: 6769.9 KB)
+0010.523 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1100 files added (on-disk size: 6769.9 KB)
+0010.698 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1200 files added (on-disk size: 6769.9 KB)
+0011.801 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1300 files added (on-disk size: 6769.9 KB)
+0011.976 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1400 files added (on-disk size: 6769.9 KB)
+0012.079 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1500 files added (on-disk size: 6769.9 KB)
+0012.191 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (25.4 MB, 916 (1595) files added so far); re-opening (prior size: 6769.9 KB)
+0015.671 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1600 files added (on-disk size: 13421.6 KB)
+0015.761 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1700 files added (on-disk size: 13421.6 KB)
+0015.959 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1800 files added (on-disk size: 13421.6 KB)
+0016.056 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 1900 files added (on-disk size: 13421.6 KB)
+0016.316 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2000 files added (on-disk size: 13421.6 KB)
+0016.521 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2100 files added (on-disk size: 13421.6 KB)
+0016.727 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2200 files added (on-disk size: 13421.6 KB)
+0016.936 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2300 files added (on-disk size: 13421.6 KB)
+0017.220 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2400 files added (on-disk size: 13421.6 KB)
+0017.481 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2500 files added (on-disk size: 13421.6 KB)
+0017.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.8 MB, 6048 files batched, 1001 (2596) added so far); re-opening (prior size: 13421.6 KB)
+0019.332 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2600 files added (on-disk size: 16167.1 KB)
+0019.545 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2700 files added (on-disk size: 16167.1 KB)
+0019.754 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2800 files added (on-disk size: 16167.1 KB)
+0019.997 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 2900 files added (on-disk size: 16167.1 KB)
+0020.288 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3000 files added (on-disk size: 16167.1 KB)
+0020.515 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3100 files added (on-disk size: 16167.1 KB)
+0020.793 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3200 files added (on-disk size: 16167.1 KB)
+0021.127 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3300 files added (on-disk size: 16167.1 KB)
+0021.298 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3400 files added (on-disk size: 16167.1 KB)
+0021.524 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3500 files added (on-disk size: 16167.1 KB)
+0021.754 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.3 MB, 6048 files batched, 1001 (3597) added so far); re-opening (prior size: 16167.1 KB)
+0023.617 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3600 files added (on-disk size: 19333.7 KB)
+0024.016 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3700 files added (on-disk size: 19333.7 KB)
+0024.118 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3800 files added (on-disk size: 19333.7 KB)
+0024.293 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 3900 files added (on-disk size: 19333.7 KB)
+0024.516 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4000 files added (on-disk size: 19333.7 KB)
+0024.884 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4100 files added (on-disk size: 19333.7 KB)
+0025.158 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4200 files added (on-disk size: 19333.7 KB)
+0025.397 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4300 files added (on-disk size: 19333.7 KB)
+0025.630 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4400 files added (on-disk size: 19333.7 KB)
+0025.880 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4500 files added (on-disk size: 19333.7 KB)
+0026.193 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (21.9 MB, 999 (4596) files added so far); re-opening (prior size: 19333.7 KB)
+0028.971 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4600 files added (on-disk size: 25345.5 KB)
+0029.185 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4700 files added (on-disk size: 25345.5 KB)
+0029.414 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4800 files added (on-disk size: 25345.5 KB)
+0029.480 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 4900 files added (on-disk size: 25345.5 KB)
+0029.575 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5000 files added (on-disk size: 25345.5 KB)
+0029.640 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5100 files added (on-disk size: 25345.5 KB)
+0029.704 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5200 files added (on-disk size: 25345.5 KB)
+0029.773 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5300 files added (on-disk size: 25345.5 KB)
+0029.840 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5400 files added (on-disk size: 25345.5 KB)
+0029.897 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5500 files added (on-disk size: 25345.5 KB)
+0029.965 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.3 MB, 6048 files batched, 1001 (5597) added so far); re-opening (prior size: 25345.5 KB)
+0031.990 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5600 files added (on-disk size: 28859.9 KB)
+0032.047 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5700 files added (on-disk size: 28859.9 KB)
+0032.114 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5800 files added (on-disk size: 28859.9 KB)
+0032.172 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 5900 files added (on-disk size: 28859.9 KB)
+0032.230 (0) Zip: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip.tmp: 6000 files added (on-disk size: 28859.9 KB)
+0033.280 (0) Created plugins zip (0) - 29405.3 KB in 33.1 s (888 KB/s) (sha1: 19678f0b5c74eeb2d692960911f618d86fc3410e, sha256: a1729c93f799e90d719f52f440c285fa234dbb7b7f9e1d128d90efdfe6d90be1)
+0033.290 (0) Beginning creation of dump of themes (split every: 400 MB)
+0033.314 (0) Total entities for the zip file: 7 directories, 27 files (0 skipped as non-modified), 0.8 MB
+0033.400 (0) Created themes zip (0) - 764.4 KB in 0.1 s (7408.9 KB/s) (sha1: d3eee915f640c8244f41e7a28f86403f701ac643, sha256: a1f3e247f733dfc77e6d2dfbbc056351e89c4a75a9ca1e68989073f04e99d16a)
+0033.410 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0033.414 (0) Looking for candidates to backup in: C:\Users\admin\Local Sites\saselhaus\app\public/wp-content/uploads
+0033.418 (0) finding files: 2021: adding to list (1)
+0033.421 (0) finding files: elementor: adding to list (2)
+0033.426 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0033.479 (0) Total entities for the zip file: 4 directories, 82 files (0 skipped as non-modified), 2.9 MB
+0033.767 (0) Created uploads zip (0) - 2646.1 KB in 0.3 s (7900.9 KB/s) (sha1: dcf96ad6d9921ad5a2ab770c6b102b57ab01489e, sha256: a05605e186b6bd32989fd052bc6fbf50cd086167ec9c660a6ca4997a4b61ee2c)
+0033.777 (0) Beginning backup of other directories found in the content directory (index: 0)
+0033.781 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0033.785 (0) Looking for candidates to backup in: C:\Users\admin\Local Sites\saselhaus\app\public/wp-content
+0033.789 (0) finding files: index.php: adding to list (1)
+0033.793 (0) finding files: languages: adding to list (2)
+0033.796 (0) finding files: mu-plugins: adding to list (3)
+0033.800 (0) finding files: plugins: skipping: this is the plugins directory
+0033.804 (0) finding files: themes: skipping: this is the themes directory
+0033.808 (0) finding files: updraft: skipping: this is the updraft directory
+0033.812 (0) finding files: upgrade: skipping: excluded by options
+0033.815 (0) finding files: uploads: skipping: this is the uploads directory
+0033.864 (0) Total entities for the zip file: 4 directories, 86 files (0 skipped as non-modified), 3.8 MB
+0034.843 (0) Created others zip (0) - 1118.4 KB in 1 s (1096 KB/s) (sha1: 66c369f3e8e10d443167aff51c5b257edb65b5dd, sha256: 9672231c37b677b3bb7e732501f34c61c2d25f165f7eac7fe6aa0cd6c6e79c70)
+0034.918 (0) Saving backup status to database (elements: 8)
+0034.951 (0) Beginning creation of database dump (WordPress DB)
+0034.969 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0035.119 (0) Table wp_options: Total expected rows (approximate): 236
+0035.272 (0) Table wp_options: Rows added in this batch (next record: 647): 237 (uncompressed bytes in this segment=1059560) in 0.14 seconds
+0035.299 (0) Table wp_options: finishing file(s) (2, 155.3 KB)
+0035.315 (0) Table wp_users: Total expected rows (approximate): 0
+0035.327 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1422) in 0.01 seconds
+0035.352 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0035.367 (0) Table wp_usermeta: Total expected rows (approximate): 17
+0035.379 (0) Table wp_usermeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=2926) in 0.01 seconds
+0035.404 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0035.419 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0035.430 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0035.455 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0035.468 (0) Table wp_comments: Total expected rows (approximate): 0
+0035.479 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2137) in 0.01 seconds
+0035.498 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0035.511 (0) Table wp_links: Total expected rows (approximate): 0
+0035.527 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0035.547 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0035.559 (0) Table wp_postmeta: Total expected rows (approximate): 2736
+0035.868 (0) Table wp_postmeta: Rows added in this batch (next record: 3231): 2531 (uncompressed bytes in this segment=5296873) in 0.31 seconds
+0035.889 (0) Table wp_postmeta: finishing file(s) (2, 316.2 KB)
+0035.900 (0) Table wp_posts: Total expected rows (approximate): 402
+0036.134 (0) Table wp_posts: Rows added in this batch (next record: 431): 393 (uncompressed bytes in this segment=3959501) in 0.23 seconds
+0036.158 (0) Table wp_posts: finishing file(s) (2, 174.3 KB)
+0036.171 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0036.185 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 16 (uncompressed bytes in this segment=912) in 0.01 seconds
+0036.206 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0036.219 (0) Table wp_term_taxonomy: Total expected rows (approximate): 6
+0036.231 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1120) in 0.01 seconds
+0036.252 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0036.265 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0036.274 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0036.293 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0036.305 (0) Table wp_terms: Total expected rows (approximate): 6
+0036.314 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=891) in 0.00 seconds
+0036.332 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0036.344 (0) Table wp_e_submissions: Total expected rows (approximate): 0
+0036.361 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2282) in 0.01 seconds
+0036.378 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0036.391 (0) Table wp_e_submissions_actions_log: Total expected rows (approximate): 0
+0036.403 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1251) in 0.01 seconds
+0036.421 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0036.431 (0) Table wp_e_submissions_values: Total expected rows (approximate): 0
+0036.442 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.01 seconds
+0036.463 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0036.474 (0) Table wp_jet_post_types: Total expected rows (approximate): 0
+0036.482 (0) Table wp_jet_post_types: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.00 seconds
+0036.500 (0) Table wp_jet_post_types: finishing file(s) (2, 0.3 KB)
+0036.511 (0) Table wp_jet_taxonomies: Total expected rows (approximate): 0
+0036.518 (0) Table wp_jet_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.00 seconds
+0036.536 (0) Table wp_jet_taxonomies: finishing file(s) (2, 0.4 KB)
+0036.542 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_options.table.tmpr648.gz (1/17): adding to final database dump
+0036.583 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_options.table.gz (2/17): adding to final database dump
+0036.587 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_users.table.tmpr2.gz (3/17): adding to final database dump
+0036.591 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_users.table.gz (4/17): adding to final database dump
+0036.595 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_usermeta.table.tmpr25.gz (5/17): adding to final database dump
+0036.599 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_usermeta.table.gz (6/17): adding to final database dump
+0036.603 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_commentmeta.table.tmpr0.gz (7/17): adding to final database dump
+0036.607 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_commentmeta.table.gz (8/17): adding to final database dump
+0036.612 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_comments.table.tmpr2.gz (9/17): adding to final database dump
+0036.616 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_comments.table.gz (10/17): adding to final database dump
+0036.620 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_links.table.tmpr0.gz (11/17): adding to final database dump
+0036.625 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_links.table.gz (12/17): adding to final database dump
+0036.628 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_postmeta.table.tmpr3232.gz (13/17): adding to final database dump
+0036.761 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_postmeta.table.gz (14/17): adding to final database dump
+0036.765 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_posts.table.tmpr432.gz (15/17): adding to final database dump
+0036.830 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_posts.table.gz (16/17): adding to final database dump
+0036.835 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_term_relationships.table.tmpr100001.gz (17/17): adding to final database dump
+0036.839 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_term_relationships.table.gz (18/17): adding to final database dump
+0036.843 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_term_taxonomy.table.tmpr7.gz (19/17): adding to final database dump
+0036.847 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_term_taxonomy.table.gz (20/17): adding to final database dump
+0036.851 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_termmeta.table.tmpr0.gz (21/17): adding to final database dump
+0036.855 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_termmeta.table.gz (22/17): adding to final database dump
+0036.859 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_terms.table.tmpr7.gz (23/17): adding to final database dump
+0036.863 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_terms.table.gz (24/17): adding to final database dump
+0036.867 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_e_submissions.table.tmpr0.gz (25/17): adding to final database dump
+0036.872 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_e_submissions.table.gz (26/17): adding to final database dump
+0036.876 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (27/17): adding to final database dump
+0036.880 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_e_submissions_actions_log.table.gz (28/17): adding to final database dump
+0036.884 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_e_submissions_values.table.tmpr0.gz (29/17): adding to final database dump
+0036.888 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_e_submissions_values.table.gz (30/17): adding to final database dump
+0036.892 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_jet_post_types.table.tmpr0.gz (31/17): adding to final database dump
+0036.896 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_jet_post_types.table.gz (32/17): adding to final database dump
+0036.901 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_jet_taxonomies.table.tmpr0.gz (33/17): adding to final database dump
+0036.905 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db-table-wp_jet_taxonomies.table.gz (34/17): adding to final database dump
+0036.931 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db.gz: finished writing out complete database file (624 KB)
+0036.983 (0) Total database tables backed up: 17 (backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db.gz, size: 664855, sha1: 571644994dcede846c02ceb72f6f0711094c56c4, sha256: f98902288b01921d127a67aa9da9c35514ae2def85d9f5571b54d7940102ef04)
+0037.000 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0037.003 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0037.007 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0037.011 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-others.zip: others: This file has not yet been successfully uploaded: will queue
+0037.015 (0) backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db.gz: db: This file has not yet been successfully uploaded: will queue
+0037.018 (0) Saving backup history. Total backup size: 33.8 MB
+0037.026 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0037.035 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0037.038 (0) No remote despatch: user chose no remote backup service
+0037.041 (0) Recording as successfully uploaded: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-plugins.zip
+0037.049 (0) Recording as successfully uploaded: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-themes.zip
+0037.055 (0) Recording as successfully uploaded: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-uploads.zip
+0037.062 (0) Recording as successfully uploaded: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-others.zip
+0037.069 (0) Recording as successfully uploaded: backup_2021-04-08-0915_SaselHaus_7cdbadd75254-db.gz
+0037.083 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0037.087 (0) Number of backup sets in history: 1; groups (db): 1
+0037.091 (0) Examining (for databases) backup set with group_id=0, nonce=7cdbadd75254, datestamp=1617873344 (Apr 08 2021 09:15:44)
+0037.094 (0) This backup set is the backup set just made, so will not be deleted.
+0037.094 (0) Number of backup sets in history: 1; groups (files): 1
+0037.098 (0) Examining (for files) backup set with nonce=7cdbadd75254, datestamp=1617873344 (Apr 08 2021 09:15:44)
+0037.098 (0) This backup set is the backup set just made, so will not be deleted.
+0037.101 (0) This backup set is the backup set just made, so will not be deleted.
+0037.102 (0) This backup set is the backup set just made, so will not be deleted.
+0037.102 (0) This backup set is the backup set just made, so will not be deleted.
+0037.103 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0037.106 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0037.116 (0) Resume backup (7cdbadd75254, 0): finish run
+0037.124 (0) Decremented the semaphore (fd) by 1
+0037.129 (0) Semaphore (fd) unlocked
+0037.133 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0037.142 (0) The backup apparently succeeded and is now complete
+0037.147 (0) No email will/can be sent - the user has not configured an email address.
+0037.150 (0) Die Sicherung war anscheinend erfolgreich und ist nun vollständig

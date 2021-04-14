@@ -1,0 +1,80 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://marvinaziz.de
+Template: hello-elementor
+Author: Marvin Aziz
+Author URI: https://marvinaziz.de
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.3.1.1617704078
+Updated: 2021-04-12 10:14:38
+
+*/
+
+.hidden {
+    display: none;
+}
+
+input[type='checkbox'] { 
+    margin-right: 10px;
+ }
+/* START Style Hero Slider Frontpage */
+
+.sp-buttons {
+    margin-top: -30px !important;
+}
+
+.sp-button.sp-selected-button {
+    border-color: #FFFFFF !important;
+}
+/* END STYLING HERO SLIDER */
+
+/* START Styling Cards */
+
+/* Aktuelles */
+.cards.aktuelles:hover h4, .cards.aktuelles:hover div {
+    color: white;
+}
+
+/* Kommende VA auf Homepage */
+
+.blue-bg-hover:hover > .elementor-element-populated{
+    background-color: #005FA8 !important;
+}
+
+.yellow-bg-hover:hover > .elementor-element-populated{
+    background-color: #B9CE00 !important;
+
+}
+
+
+
+/*END STYLING CARDS */
+
+/* Start Styling Zitate */
+span.swiper-pagination-bullet {
+    border-radius: 2px !important;
+    width: 32px;
+    height: 3px !important;
+}
+
+/*END Styling Zitate */
+
+/*START Styling Jet-Mega-Menu */
+.jet-menu-item .jet-sub-mega-menu{
+    left:-270px !important;
+}
+
+.jet-menu-item-248:hover:before {
+    background: linear-gradient(to right, #008e74 33%, #008e74 33%, #cc0009 33%, #cc0009 66%, #005fa8 66%);
+    position: absolute;
+    content: '';
+    height: 8px;
+    right: 0;
+    width: 112px;
+    left: 5px;
+    bottom: 5px;
+}
+
+/* END STYLING JET-MEGA */
+
